@@ -1,0 +1,33 @@
+// brandFactsData.js
+export const brandFacts = {
+  Toyota: {
+    sales: 31541901,
+    model: "Camry",
+    country: "🇯🇵 Japan",
+    marketShare: [
+      { country: "Japan", value: 45 },
+      { country: "USA", value: 35 },
+      { country: "Canada", value: 20 }
+    ]
+  },
+  Honda: {
+    sales: 28000000,
+    model: "Civic",
+    country: "🇯🇵 Japan",
+    marketShare: [
+      { country: "Japan", value: 40 },
+      { country: "USA", value: 30 },
+      { country: "Canada", value: 30 }
+    ]
+  },
+  Ford: {
+    sales: 29500000,
+    model: "F-150",
+    country: "🇺🇸 USA",
+    marketShare: [
+      { country: "USA", value: 60 },
+      { country: "Canada", value: 25 },
+      { country: "Mexico", value: 15 }
+    ]
+  }
+};
