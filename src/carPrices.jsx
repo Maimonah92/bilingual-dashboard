@@ -69,7 +69,7 @@ function CarPrices({ searchBrand }) {
           )}
 
           <img
-            src={`/assets/cars/${actualBrand.toLowerCase()}.gif`}
+            src={`./assets/cars/${actualBrand.toLowerCase()}.gif`}
             alt={`${actualBrand} car`}
             style={{ height: '340px', width: '340px', objectFit: 'cover', borderRadius: '16px', boxShadow: '0 6px 16px rgba(0,0,0,0.2)' }}
             onError={(e) => { e.target.style.display = 'none'; }}
